@@ -15,6 +15,8 @@ namespace WebApplication1.Models
 
         public Department Department { get; set; }
 
+        public int DepartmentId { get; set; }
+
         public ICollection<SalesRecord> Sr { get; set; } = new List<SalesRecord>();
 
         public Seller()
